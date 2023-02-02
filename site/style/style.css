@@ -1,0 +1,159 @@
+body {
+    background-color: #CDF0EA;
+    width: 1519px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Logo*/
+.logo-nav {
+    width: 400px;
+    margin: 20px 20px 20px 50px;
+    padding-top: 70px;
+}
+
+/*Menu*/
+.container-form {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.control-form {
+    display: flex;
+}
+
+.form-search {
+    width: 500px;
+}
+
+.form-search,
+.form-search-submit {
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-width: 2px 2px 2px 2px;
+    border-color: rgb(254, 134, 170);
+    margin-right: 7px;
+}
+
+.form-search-submit {
+    color: rgb(135, 66, 95);
+    display: flex;
+    flex-direction: row;
+    padding: 7px 7px;
+}
+
+/*Navbar*/
+.li-nav {
+    padding-right: 30px;
+}
+
+/*Submenu*/
+#submenu {
+    justify-content: center;
+    display: flex;
+}
+
+.submenu-border {
+    border-top: solid 2px;
+    border-color: rgb(254, 134, 170);
+}
+
+.ul-submenu-links {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+.li-submenu {
+    padding-right: 50px;
+}
+
+/*Container de Informações*/
+#cont-inform {
+    min-width: 100%;
+    background-color: bisque;
+    justify-content: center;
+}
+
+.ul-cont-inform {
+    display: flex;
+    justify-content: center;
+}
+
+.li-cont-inform {
+    padding-right: 100px;
+}
+
+/*Cards*/
+#produtos {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.produto {
+    max-width: 300px;
+    flex-grow: 1;
+    margin-right: 50px;
+}
+
+.produto-body {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    height: 10rem;
+}
+
+span {
+    color: aqua;
+    font-size: 15px;
+}
+
+/*Footer*/
+.footer-background {
+    background-color: bisque;
+    height: 300px;
+    justify-content: center;
+}
+
+.footer-caixa {
+    display: flex;
+    justify-content: center;
+    min-width: 80%;
+    max-height: 250px;
+    margin-top: 10px;
+}
+
+.caixa-elementos {
+    align-items: center;
+    margin: 10px;
+    max-width: 350px;
+    max-height: 300px;
+}
+
+.elemento {
+    margin: 10px;
+}
+.img-pix{
+    position: relative;
+    width: 130px;
+    z-index: 0;
+    bottom: 40px;
+    right: 40px;
+}
+.foo-copyright {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Loja</title>
+  <meta charset="utf-8" />
+  <!--Bootstrap-->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!--Retira o estilo do navegador
+  <link rel="stylesheet" href="style/reset_style.css">-->
+  <!--Css em desenvolvimento-->
+  <link rel="stylesheet" href="style/style.css" />
+  <!--Icons-->
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+</head>
+
+<body>
+  <!--Logo e Menu-->
+  <section>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-img" href="#">
+          <img class="logo-nav" src="imagens/logo/Twins Mom - Logo horizontal.png" alt="logo teste" />
+        </a>
+        <!--Botão telas menores-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Barra de pesquisa e botão-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="container-form">
+            <form class="control-form">
+              <input placeholder="  O que você está procurando?" class="form-search" type="search" name="s"
+                title="Search" value />
+              <button class="form-search-submit" type="submit" title="Search">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <!-- Links iniciais-->
+          <ul class="navbar-nav ms-4 mb-lg-1">
+            <li class="nav-item li-nav">
+              <a class="nav-link active" aria-current="page" href="#">Ínicio</a>
+            </li>
+            <li class="nav-item li-nav">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown li-nav">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!--Container e carrousel de produtos-->
+  <container id="submenu">
+    <div class="submenu-border"></div>
+    <ul class="ul-submenu-links">
+      <li class="li-submenu"><a href="">Início</a></li>
+      <li class="li-submenu"><a href="">Planners</a></li>
+      <li class="li-submenu"><a href="">Cadernos</a></li>
+    </ul>
+    <div class="submenu-border"></div>
+  </container>
+
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagens/imagen-teste1.jpg" class="d-block w-100" alt="imagen-teste1" />
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/imagen-teste2.jpg" class="d-block w-100" alt="imagen-teste2" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aFria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!--Container com imformações-->
+  <section id="cont-inform">
+    <div class="">
+      <ul class="ul-cont-inform">
+        <i class="fas fa-heart"></i>
+        <li class="li-cont-inform">
+          <h6>PRODUÇÃO</h6>
+          <p>feito artesanalmente</p>
+        </li>
+        <li class="li-cont-inform">
+          <h6>5% DE DESCONTO</h6>
+          <p>pagamento por pix</p>
+        </li>
+        <li>
+          <h6>FRETE A COMBINAR </h6>
+          <p>entregas dentro de Aracaju/SE</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--Nome dos cards-->
+  <div class="container">
+    <h2>Cadernos</h2>
+  </div>
+  <!--Cards-->
+  <div id="produtos">
+    <div class="produto">
+      <div class="img-fluid">
+        <img src="https://via.placeholder.com/300x320.png" alt="">
+      </div>
+      <div class="produto-body">
+        <span>teste</span>
+      </div>
+    </div>
+    <div class="produto">
+      <div class="img-fluid">
+        <img src="https://via.placeholder.com/300x320.png" alt="">
+      </div>
+      <div class="produto-body">
+        <span>teste</span>
+      </div>
+    </div>
+    <div class="produto">
+      <div class="img-fluid">
+        <img src="https://via.placeholder.com/300x320.png" alt="">
+      </div>
+      <div class="produto-body">
+        <span>teste</span>
+      </div>
+    </div>
+  </div>
+
+  <!--Bootstrap: JavaScript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+<!--Footer-->
+<footer class="footer-background">
+  <div class="footer-caixa">
+
+    <div class="container caixa-elementos">
+      <div class="elemento">
+        <h3>Institucional</h3>
+      </div>
+      <div class="elemento">
+        <h5>Sobre a Loja</h5>
+      </div>
+      <div class="elemento">
+        <h5>Políticas da Loja</h5>
+      </div>
+      <div class="elemento">
+        <h5>Políticas de Privacidade</h5>
+      </div>
+    </div>
+
+    <div class="container caixa-elementos">
+      <div class="elemento">
+        <h3>Institucional</h3>
+      </div>
+      <div class="elemento">
+        <h5>Sobre a Loja</h5>
+      </div>
+      <div class="elemento">
+        <h5>Políticas da Loja</h5>
+      </div>
+      <div class="elemento">
+        <h5>Políticas de Privacidade</h5>
+      </div>
+    </div>
+
+    <div class="container caixa-elementos">
+      <div class="elemento">
+        <h3>Institucional</h3>
+      </div>
+      <div class="elemento-img">
+        <img class="img-pix" src="imagens/logo-pix.png" alt="">
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="container foo-copyright">
+    <!--Fazer com que o ano mude automaticamente-->
+    <div class="copyright">
+      <h5>Copyright © 2022 Ateliê Twins Mom</h5>
+    </div>
+  </div>
+
+</footer>
+
+</html>
