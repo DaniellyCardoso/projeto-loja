@@ -1,6 +1,6 @@
 body {
     background-color: #CDF0EA;
-    width: 1519px;
+    width: 1343px;
 }
 
 li {
@@ -13,15 +13,15 @@ a {
 
 /*Logo*/
 .logo-nav {
-    width: 400px;
-    margin: 20px 20px 20px 50px;
+    width: 340px;
+    margin: 10px 10px 10px 40px;
     padding-top: 70px;
 }
 
 /*Menu*/
 .container-form {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .control-form {
@@ -29,7 +29,7 @@ a {
 }
 
 .form-search {
-    width: 500px;
+    width: 400px;
 }
 
 .form-search,
@@ -50,7 +50,7 @@ a {
 
 /*Navbar*/
 .li-nav {
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 /*Submenu*/
