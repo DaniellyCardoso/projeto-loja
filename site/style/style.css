@@ -123,29 +123,21 @@ span {
 }
 
 .footer-caixa {
-    display: flex;
-    justify-content: center;
     min-width: 80%;
-    max-height: 250px;
-    margin-top: 10px;
-}
-
-.caixa-elementos {
-    align-items: center;
-    margin: 10px;
-    max-width: 350px;
-    max-height: 300px;
+    min-height: 190px;
+    margin-top: 20px;/*não está funcionando*/
 }
 
 .elemento {
     margin: 10px;
+    position: absolute;
 }
 .img-pix{
     position: relative;
     width: 130px;
     z-index: 0;
-    bottom: 40px;
-    right: 40px;
+    bottom: 50px;
+    left: 40px;
 }
 .foo-copyright {
     margin-top: 10px;
