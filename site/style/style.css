@@ -75,15 +75,17 @@ a {
 }
 
 /*Container de Informações*/
-#cont-inform {
+.cont-inform {
     min-width: 100%;
     background-color: bisque;
     justify-content: center;
 }
 
-.ul-cont-inform {
-    display: flex;
-    justify-content: center;
+.col-cont-inform{
+    
+}
+.icon-cont-inform {
+    position: relative;
 }
 
 .li-cont-inform {
